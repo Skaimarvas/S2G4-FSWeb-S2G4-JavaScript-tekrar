@@ -182,7 +182,7 @@ console.log("Görev 3d: Beşyüzdenbüyüksayilar", besyuzdenkucuksayilar);
 /* kodlar buraya */
 
 function siralama(besArrDizi) {
-  let kopyaBesYuz = [...besyuzdenkucuksayilar];
+  let kopyaBesYuz = [...besArrDizi];
   const siralisayilar = kopyaBesYuz.sort((a, b) => a - b);
 
   return siralisayilar;
